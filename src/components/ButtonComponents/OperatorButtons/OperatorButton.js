@@ -1,9 +1,9 @@
 import React from "react";
+{/* Display a button element rendering the data being passed down from the parent container on props */}
 
-const OperatorButton = () => {
+export default function OperatorButton(props){
+
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button>{props.eaprops.char}</button>
   );
 };
